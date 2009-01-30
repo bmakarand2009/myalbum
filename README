@@ -1,0 +1,5 @@
+MyAlbum is a copy of Jeff Brown demo on a NFJS class, which demos grails with ajax capabilities.
+It has been converted to a plugin.
+Goal is to see if we can install it as a plugin in other projecs
+
+Note: _events.groovy is a new feature to exclude resources from plugin
