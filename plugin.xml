@@ -1,0 +1,20 @@
+<plugin name='myalbum' version='0.1'>
+  <author>Your name</author>
+  <title>Plugin summary/headline</title>
+  <description>Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/Myalbum+Plugin</documentation>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>AlbumController</resource>
+    <resource>ArtistController</resource>
+    <resource>Album</resource>
+    <resource>Artist</resource>
+    <resource>Track</resource>
+    <resource>ArtistNameCodec</resource>
+  </resources>
+  <dependencies />
+</plugin>
