@@ -3,3 +3,12 @@ It has been converted to a plugin.
 Goal is to see if we can install it as a plugin in other projecs
 
 Note: _events.groovy is a new feature to exclude resources from plugin
+
+
+This plugin, does not work, as it has a template in it, 
+
+I have tried various approaches to get this plugin work but it does not, here are the approaches
+
+   <g:render template="album/tracks" model="[theTracksToRender:album.tracks]" plugin="myalbum"/> 
+
+   <g:render template="album/tracks" model="[theTracksToRender:album.tracks]" contextPath="${pluginContextPath}"/> 
